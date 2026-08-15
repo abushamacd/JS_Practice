@@ -10,4 +10,35 @@ numbers.pop(); // remove element last
 numbers.unshift(111); // add element first
 // console.log(numbers);
 numbers.shift(); // remove element first
-console.log(numbers);
+console.log(numbers.includes(10));
+console.log(Array.isArray(numbers));
+console.log(numbers.join());
+console.log(numbers.slice(2, 4));
+console.log(numbers.splice(2, 4));
+
+// Task
+let fruits = ["mango", "banana", "Apple", "Orange", "Star Fruits"];
+console.log(fruits[3]);
+fruits[2] = "jambura";
+console.log(fruits);
+
+const tourist = ["Cox's Bazar", "Sundarbans", "Saint Martin's Island"];
+tourist.push("Zoo");
+tourist.unshift("Lebanon", "USA");
+tourist.pop();
+console.log(tourist);
+
+// 3. Checking Array Membership with ‘includes’
+
+// Use the includes method to check if the array contains a javascript book.
+
+// Print a message to the console indicating whether the element is present in the array or not.
+
+const books = ["JavaScript", "Clean Code", "The Pragmatic Programmer"];
+
+console.log(books.includes("JavaScript"));
+console.log(Array.isArray(books));
+
+const num = [1, 3, 5, 2];
+console.log("Original:-", numbers, num);
+console.log("Combaind:-", numbers.concat(num));

@@ -16,3 +16,13 @@ const friendsarr = friends.split(", ");
 console.log(friendsarr);
 console.log(friendsarr.includes("Rahim"));
 console.log(friendsarr.join("- "));
+
+let reversed = "";
+for (let i = 0; i < address.length; i++) {
+  const element = address[i];
+  reversed = element + reversed;
+}
+console.log(reversed);
+
+const shortRev = address.split("").reverse().join("");
+console.log(shortRev);
